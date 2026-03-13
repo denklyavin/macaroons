@@ -18,5 +18,5 @@
 - CSS3 (Flexbox, Grid, Media Queries)
 
 ## Как посмотреть
-
-Просто открой файл `index.html` в браузере.
+Перейти по ссылке: https://denklyavin.github.io/macaroons/ 
+Либо просто открой файл `index.html` в браузере.
