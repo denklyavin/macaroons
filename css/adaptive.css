@@ -1,0 +1,512 @@
+/*  */
+
+@media screen and (max-width: 1379px) {
+	.order__strawberry-right__images {
+		right: 30px;
+	}
+	.present {
+		width: 70px;
+		height: 70px;
+		bottom: 20px;
+		right: 20px;
+	}
+	.present-img {
+		width: 60%;
+	}
+	.present-text {
+		top: 5px;
+		right: 95px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.order-form {
+		margin-left: 105px;
+	}
+	.order__strawberry-right__images {
+		right: 150px;
+	}
+	.order__strawberry-left__images {
+		top: 70px;
+		left: 20px;
+	}
+	.present {
+		right: 40px;
+	}
+}
+
+@media screen and (max-width: 1135px) {
+	/* .header__container {
+		justify-content: space-around;
+		padding-bottom: 82px;
+	} */
+
+	/* .footer__container {
+		justify-content: space-around;
+	} */
+
+	.main {
+		padding: 150px 0 420px;
+		position: relative;
+	}
+
+	.main__image {
+		position: absolute;
+		bottom: 130px;
+		right: 130px;
+	}
+
+	.product__about {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.subtitle-about {
+		order: 1;
+		max-width: 672px;
+	}
+	.about-description {
+		order: 2;
+		max-width: 672px;
+		margin-bottom: 40px;
+	}
+	.about-image {
+		order: 3;
+	}
+	.about__info {
+		max-width: 672px;
+	}
+	/* .headline {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	} */
+	.about-image {
+		width: 310px;
+	}
+	.about-image__img {
+		max-width: 100%;
+	}
+
+	.about__features {
+		grid-template-columns: repeat(2, 218px);
+		/* grid-template-rows: repeat(2, 1fr); */
+		justify-content: center;
+		column-gap: 54px;
+		row-gap: 80px;
+	}
+	.features-items {
+		text-align: center;
+	}
+	.features-item {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.preview-items {
+		grid-template-columns: repeat(2, 263px);
+		row-gap: 136px;
+		justify-content: center;
+	}
+
+	.order-registration {
+		position: relative;
+	}
+
+	.order__macaroons-big__images-img {
+		order: 2;
+		position: absolute;
+		right: 120px;
+		bottom: -100px;
+	}
+
+	.order__strawberry-left__images {
+		left: 550px;
+		top: 170px;
+	}
+	.order__strawberry-right__images {
+		right: 75px;
+		bottom: 5px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	/* .main__info {
+		margin-left: 30px;
+	} */
+	.order__macaroons-big__images-img {
+		max-width: 352px;
+	}
+	.order__strawberry-left__images {
+		left: 490px;
+		top: 260px;
+	}
+	.order-form {
+		z-index: 1;
+	}
+
+	@media screen and (max-width: 859px) {
+		.main__image {
+			bottom: 105px;
+			right: 50px;
+		}
+		.order-form {
+			margin-left: 35px;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		/* .container {
+    max-width: 728px;
+  } */
+
+		/* .header {
+		padding-left: 20px;
+	} */
+
+		.phone__number {
+			display: none;
+		}
+		.header__container {
+			justify-content: flex-start;
+		}
+		.menu {
+			margin-left: 103px;
+		}
+
+		.headline {
+			margin-bottom: 74px;
+		}
+		.product-description {
+			margin-bottom: 41px;
+		}
+
+		.main__image {
+			bottom: 60px;
+			right: 50px;
+		}
+		.subtitle-about {
+			max-width: 475px;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.about-description {
+			margin-top: 61px;
+		}
+		.about {
+			padding-bottom: 123px;
+		}
+		.order {
+			padding: 120px 0;
+		}
+		/* .container {
+		padding: 0 16px;
+	} */
+		.order-form {
+			margin-left: 3px;
+			z-index: 1;
+		}
+		.order-desc {
+			padding-bottom: 8px;
+		}
+		.order-caption {
+			margin-top: 40px;
+		}
+		.order__macaroons-big__images-img {
+			right: 45px;
+			bottom: -95px;
+		}
+
+		.order__strawberry-left__images {
+			left: 350px;
+			top: 280px;
+		}
+		.order__strawberry-right__images {
+			right: 120px;
+			top: 140px;
+			bottom: auto;
+		}
+
+		.present {
+			width: 60px;
+			height: 60px;
+			bottom: 30px;
+			right: 30px;
+		}
+		.present-img {
+			width: 60%;
+		}
+		.present-text {
+			top: 0px;
+			right: 80px;
+		}
+	}
+	@media screen and (max-width: 743px) {
+		.header__container {
+			flex-direction: column;
+		}
+		.menu {
+			margin-left: 0;
+			margin-top: 15px;
+		}
+		.main {
+			padding-top: 143px;
+			padding-bottom: 43px;
+		}
+		.main__container {
+			display: flex;
+			align-items: center;
+			padding-bottom: 0;
+			flex-direction: column;
+			text-align: center;
+		}
+		.main__info {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.main__image {
+			position: relative;
+			right: 0;
+			bottom: 0;
+			width: 400px;
+		}
+
+		.main__image-img {
+			width: 100%;
+		}
+
+		.main__image::after,
+		.main__image::before {
+			width: 150px;
+			height: 150px;
+			top: calc(50% - 75px);
+			left: calc(50% - 75px);
+		}
+
+		.selection-button {
+			margin-bottom: 38px;
+		}
+
+		.headline {
+			margin-bottom: 40px;
+		}
+
+		.product-description {
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40px;
+		}
+	}
+	@media screen and (max-width: 629px) {
+		.order__macaroons-big__images {
+			display: none;
+		}
+		.order-registration {
+			justify-content: center;
+			align-items: center;
+		}
+		.order__strawberry-left__images {
+			top: 130px;
+			left: 80%;
+			animation-play-state: paused;
+		}
+		.order__strawberry-right__images {
+			display: none;
+		}
+		.order-form {
+			justify-content: center;
+			align-items: center;
+		}
+
+		.order__input-text {
+			width: 100%;
+		}
+		.order-button {
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 552px) {
+		.header__container {
+			justify-content: space-between;
+			flex-direction: row;
+		}
+		.menu {
+			display: none;
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			top: 0;
+			left: 0;
+			background-color: #f0a1abdc;
+		}
+		.menu__close {
+			display: block;
+			width: 24px;
+			height: 24px;
+			fill: #781925;
+			position: absolute;
+			top: 36px;
+			right: 24px;
+		}
+
+		.menu__list {
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+			margin: 0 auto;
+		}
+		.menu__item {
+			margin-bottom: 50px;
+		}
+
+		.menu__link {
+			color: #781925;
+			font-size: 20px;
+		}
+
+		.menu.open {
+			display: flex;
+			align-items: center;
+			z-index: 3;
+		}
+
+		.header__burger {
+			display: block;
+			cursor: pointer;
+			font-size: 0;
+		}
+
+		.header__burger-svg {
+			width: 40px;
+			height: 22px;
+			fill: #801428ff;
+		}
+
+		.headline {
+			font-size: 32px;
+			line-height: 1.25;
+		}
+		.product-description {
+			font-size: 16px;
+			line-height: 1.4;
+		}
+		.main__image {
+			width: 250px;
+		}
+		.main__image::after,
+		.main__image::before {
+			width: 100px;
+			height: 100px;
+			top: calc(50% - 50px);
+			left: calc(50% - 50px);
+		}
+		.about {
+			padding: 100px 0;
+		}
+
+		.subtitle-about {
+			font-size: 30px;
+			line-height: 1.2;
+		}
+		.about-description {
+			margin: 40px 0 59px 0;
+			font-size: 16px;
+			line-height: 1.4;
+		}
+
+		.about__features {
+			column-gap: 15px;
+			row-gap: 36px;
+		}
+
+		.features-title {
+			font-size: 18px;
+		}
+		.features-text {
+			font-size: 13px;
+		}
+
+		.preview {
+			padding: 100px 0;
+		}
+		.subtitle-preview {
+			font-size: 30px;
+			margin-bottom: 122px;
+		}
+
+		.preview-items {
+			grid-template-rows: repeat(4, 1fr);
+			grid-template-columns: 263px;
+			align-items: center;
+			grid-gap: 142px;
+		}
+
+		.order {
+			padding: 100px 0 77px 0;
+		}
+		.subtitle-order {
+			font-size: 30px;
+			margin-bottom: 44px;
+		}
+
+		.order-desc {
+			font-size: 16px;
+			padding-bottom: 20px;
+		}
+		.footer {
+			padding: 50px 0;
+		}
+
+		.footer__container {
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		.footer-logo-img {
+			margin-bottom: 40px;
+		}
+		.footer-social {
+			order: 3;
+			margin-bottom: 40px;
+		}
+		.footer-phone {
+			margin-bottom: 40px;
+			order: 2;
+		}
+		.footer-copyright {
+			display: none;
+		}
+
+		.footer-copyright__mobile {
+			display: block;
+			order: 4;
+		}
+	}
+
+	@media screen and (max-width: 475px) {
+		.container {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		.about__features {
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+		}
+		.order__strawberry-left__images {
+			top: 130px;
+			left: 70%;
+		}
+	}
+	@media screen and (max-width: 380px) {
+	}
+	@media screen and (max-width: 497px) {
+	}
+	@media screen and (max-width: 497px) {
+	}
+}
